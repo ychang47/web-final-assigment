@@ -47,12 +47,18 @@ nav ul li a:hover {
 }
 
 header {
+  background-color: black;
+  color: beige;
   display: flex;
   flex-direction: column;
-  padding-top: 1px;
+  /*padding-top: 1px;*/
   margin-bottom: 15px;
 }
 
+header h2 {
+font-style: oblique;
+font-family: fantasy;
+}
 footer {
   height: 30px;
   width: 100%;
@@ -80,7 +86,7 @@ table {
 }
 
 .content{
-  background-color: aqua;
+  background-color: navajowhite;
 }
 
 .menu-list .menu-content {
@@ -100,15 +106,43 @@ table {
 
 .detail .hiphop .hiphop-intro,
 .detail .hiphop .hiphop-teachers,
-.detail .hiphop .hiphop-scheduler {
+/*.detail .hiphop .hiphop-scheduler,*/
+.detail .hiphop .popping-intro,
+.detail .hiphop .popping-teachers,
+/*.detail .hiphop .popping-scheduler,*/
+.detail .hiphop .locking-intro,
+.detail .hiphop .locking-teachers,
+/*.detail .hiphop .locking-scheduler,*/
+.detail .hiphop .breaking-intro,
+.detail .hiphop .breaking-teachers,
+/*.detail .hiphop .breaking-scheduler,*/
+.detail .hiphop .tution-fee,
+.detail .hiphop .tution-scheduler {
   display: none;
 }
 
 .detail .hiphop .hiphop-intro.active,
 .detail .hiphop .hiphop-teachers.active,
-.detail .hiphop .hiphop-scheduler.active {
+/*.detail .hiphop .hiphop-scheduler.active,*/
+.detail .hiphop .popping-intro.active,
+.detail .hiphop .popping-teachers.active,
+/*.detail .hiphop .popping-scheduler.active,*/
+.detail .hiphop .locking-intro.active,
+.detail .hiphop .locking-teachers.active,
+/*.detail .hiphop .locking-scheduler.active,*/
+.detail .hiphop .breaking-intro.active,
+.detail .hiphop .breaking-teachers.active,
+/*.detail .hiphop .breaking-scheduler.active,*/
+.detail .hiphop .tution-fee.active,
+.detail .hiphop .tution-scheduler.active {
+  font-weight: 1000;
+  font-size: xx-large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   display: block;
+  
 }
+
+
 
 @media (max-width: 500px) {
   nav {

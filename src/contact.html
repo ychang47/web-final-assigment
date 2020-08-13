@@ -46,48 +46,21 @@
   <div class="content">
     <header>
       <h1>WEB222 Assignment 5 - YYC Dance Crew</h1>
-      <h2>Here is powerful and fabulous studio for all ages.</h2>
+      <h3>Here is powerful and fabulous studio for all ages.</h3>
       <h3>The YYC Dance Crew offers kinds of street dance such as HipHop, and Popping.</h3>
-      Do you want to become a dancer?</h2>
-      <h5>You won't want to miss the opportunity!</h5>
+      <h3>Do you want to become a dancer?</h3>
+      <h2>&hearts;&hearts; You won't want to miss the opportunity &hearts;&hearts;</h2>
     </header>
     <nav>
       <ul class="menu-list">
         <li class="menu-content">
-          <a href="#" onclick="loadMenu('hiphop')">HipHop Style</a>
-          <ul class="menu hiphop" id="hiphop">
-            <li id="h_intro"><a href="index.html" onclick="loadHiphop('hiphop-intro')">Intro</a></li>
-            <li id="h_teacher"><a href="index.html" onclick="loadHiphop('hiphop-teachers')">Qualified Teachers</a></li>
-            <li id="h_sche"><a href="index.html" onclick="loadHiphop('hiphop-scheduler')">Schedule</a></li>
-          </ul>
+          <a href="index.html" onclick="load('hiphop-intro')">Home</a>
         </li>
-        <li class="menu-content">
-          <a href="#">Popping Style</a>
-          <ul class="menu popping" id="popping">
-            <li id="p_intro"><a href="#">Intro</a></li>
-            <li id="p_teacher"><a href="#">Qualified Teachers</a></li>
-            <li id="p_sche"><a href="#">Schedule</a></li>
-          </ul>
-        </li>
-        <li class="menu-content">
-          <a href="#">Locking Style</a>
-          <ul class="menu locking" id="locking">
-            <li id="l_intro"><a href="#">Intro</a></li>
-            <li id="l_teacher"><a href="#">Qualified Teachers</a></li>
-            <li id="l_sche"><a href="#">Schedule</a></li>
-          </ul>
-        </li>
-        <li class="menu-content">
-          <a href="#">Breaking Style</a>
-          <ul class="menu breaking" id="braking">
-            <li id="b_intro"><a href="#">Intro</a></li>
-            <li id="b_teacher"><a href="#">Qualified Teachers</a></li>
-            <li id="b_sche"><a href="#">Schedule</a></li>
-          </ul>
-        </li>
-        <li><a href="contact.html">Contact Us!</a></li>
+
+        <li><a href="#">Contact Us!</a></li>
       </ul>
     </nav>
+
 
     <section>
       <form id="contactForm" method="POST" action="https://httpbin.org/post">
@@ -98,13 +71,21 @@
           </tr>
           <tr>
             <td>Last Name</td>
-            <td><input type="text" id="lastName"></td>
+            <td><input type="text" id="lastName" placeholder="Las Name"></td>
           </tr>
           <tr>
             <td>City</td>
             <td>
 
             </td>
+          </tr>
+          <tr>
+            <td>Email Address</td>
+            <td><input type="text" id="email" placeholder="Email"></td>
+          </tr>
+          <tr>
+            <td>Address</td>
+            <td><input type="text" id="address" placeholder="Address"></td>
           </tr>
         </table>
         <button type="button" onclick="submitContact()">Submit</button>

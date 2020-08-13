@@ -102,44 +102,52 @@
   <div class="content">
     <header>
       <h1>WEB222 Assignment 5 - YYC Dance Crew</h1>
-      <h2>Here is powerful and fabulous studio for all ages.</h2>
+      <h3>Here is powerful and fabulous studio for all ages.</h3>
       <h3>The YYC Dance Crew offers kinds of street dance such as HipHop, and Popping.</h3>
-      Do you want to become a dancer?</h2>
-      <h5>You won't want to miss the opportunity!</h5>
+      <h3>Do you want to become a dancer?</h3>
+      <h2>&hearts;&hearts; You won't want to miss the opportunity &hearts;&hearts;</h2>
     </header>
     <nav>
       <ul class="menu-list">
         <li class="menu-content">
-          <a href="#" onclick="loadMenu('hiphop')">HipHop Style</a>
+          <a href="#" onclick="loadMenu('hiphop')">Hiphop Style</a>
           <ul class="menu hiphop" id="hiphop">
-            <li id="h_intro"><a href="index.html" onclick="loadHiphop('hiphop-intro')">Intro</a></li>
-            <li id="h_teacher"><a href="index.html" onclick="loadHiphop('hiphop-teachers')">Qualified Teachers</a></li>
-            <li id="h_sche"><a href="index.html" onclick="loadHiphop('hiphop-scheduler')">Schedule</a></li>
+            <li id="h_intro"><a href="#" onclick="load('hiphop-intro')">Intro</a></li>
+            <li id="h_teacher"><a href="#" onclick="load('hiphop-teachers')">Qualified Teachers</a></li>
+
           </ul>
         </li>
         <li class="menu-content">
-          <a href="#">Popping Style</a>
+          <a href="#" onclick="loadMenu('popping')">Popping Style</a>
           <ul class="menu popping" id="popping">
-            <li id="p_intro"><a href="#">Intro</a></li>
-            <li id="p_teacher"><a href="#">Qualified Teachers</a></li>
-            <li id="p_sche"><a href="#">Schedule</a></li>
+            <li id="p_intro"><a href="#" onclick="load('popping-intro')">Intro</a></li>
+            <li id="p_teacher"><a href="#" onclick="load('popping-teachers')">Qualified Teachers</a></li>
+
           </ul>
         </li>
         <li class="menu-content">
-          <a href="#">Locking Style</a>
+          <a href="#" onclick="loadMenu('locking')">Locking Style</a>
           <ul class="menu locking" id="locking">
-            <li id="l_intro"><a href="#">Intro</a></li>
-            <li id="l_teacher"><a href="#">Qualified Teachers</a></li>
-            <li id="l_sche"><a href="#">Schedule</a></li>
+            <li id="l_intro"><a href="#" onclick="load('locking-intro')">Intro</a></li>
+            <li id="l_teacher"><a href="#" onclick="load('locking-teachers')">Qualified Teachers</a></li>
+
           </ul>
         </li>
         <li class="menu-content">
-          <a href="#">Breaking Style</a>
-          <ul class="menu breaking" id="braking">
-            <li id="b_intro"><a href="#">Intro</a></li>
-            <li id="b_teacher"><a href="#">Qualified Teachers</a></li>
-            <li id="b_sche"><a href="#">Schedule</a></li>
+          <a href="#" onclick="loadMenu('breaking')">Breaking Style</a>
+          <ul class="menu breaking" id="breaking">
+            <li id="b_intro"><a href="#" onclick="load('breaking-intro')">Intro</a></li>
+            <li id="b_teacher"><a href="#" onclick="load('breaking-teachers')">Qualified Teachers</a></li>
+
           </ul>
+        </li>
+        <li class="menu-content">
+          <a href="#" onclick="loadMenu('tution')">Tution Schedule</a>
+          <ul class="menu tution" id="tution">
+            <li id="t_fee"><a href="#" onclick="load('tution-fee')">Tution</a></li>
+            <li id="t_scheduler"><a href="#" onclick="load('tution-scheduler')">Schedule</a></li>
+          </ul>
+
         </li>
         <li><a href="contact.html">Contact Us!</a></li>
       </ul>
@@ -147,14 +155,25 @@
 
     <section id="detail" class="detail">
       <div class="hiphop">
-        <div id="hiphop-intro" class="hiphop-intro">hiphop intro</div>
-        <div id="hiphop-teachers" class="hiphop-teachers">hiphop teachers</div>
-        <div id="hiphop-scheduler" class="hiphop-scheduler">hiphop scheduler</div>
+        <div id="hiphop-intro" class="hiphop-intro">Hiphop Introduction</div>
+        <div id="hiphop-teachers" class="hiphop-teachers">Hiphop Teachers</div>
+
+        <div id="popping-intro" class="popping-intro">Popping Introduction</div>
+        <div id="popping-teachers" class="popping-teachers">Popping Teachers</div>
+
+        <div id="locking-intro" class="locking-intro">Locking Introduction</div>
+        <div id="locking-teachers" class="locking-teachers">Locking Teachers</div>
+
+        <div id="breaking-intro" class="breaking-intro">Breaking Introduction</div>
+        <div id="breaking-teachers" class="breaking-teachers">Breaking Teachers</div>
+
+        <div id="tution-fee" class="tution-fee">1000000</div>
+        <div id="tution-scheduler" class="tution-scheduler">hahaahha</div>
       </div>
     </section>
 
     <footer>
-      <form id="emailForm" method="POST" action="">
+      <form id="emailForm" method="POST" action="https://formspree.io/FORM_ID">
         <input type="text" id="email" placeholder="email">
         <button type="button" onclick="subscribeEmail()">subscribe</button>
       </form>
