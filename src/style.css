@@ -89,6 +89,15 @@ table {
   background-color: navajowhite;
 }
 
+.content .logo{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.content .baba{
+  display: flex;
+  justify-content: flex-end;
+}
 .menu-list .menu-content {
   position: relative;
 }
