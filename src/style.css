@@ -47,18 +47,39 @@ nav ul li a:hover {
 }
 
 header {
+  display: flex;
+  flex-direction: row;
   background-color: black;
   color: beige;
-  display: flex;
-  flex-direction: column;
-  /*padding-top: 1px;*/
-  margin-bottom: 15px;
 }
 
-header h2 {
-font-style: oblique;
-font-family: fantasy;
+header .logo {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
 }
+
+header .logo img {
+  width: 200px;
+}
+
+header .title {
+  display: flex;
+  flex-direction: column;
+}
+
+header .title h2,
+header .title h3 {
+  margin: 4px 0;
+}
+
+header .title h2 {
+  font-style: oblique;
+  font-family: fantasy;
+}
+
 footer {
   height: 30px;
   width: 100%;
@@ -89,15 +110,6 @@ table {
   background-color: navajowhite;
 }
 
-.content .logo{
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-}
-.content .baba{
-  display: flex;
-  justify-content: flex-end;
-}
 .menu-list .menu-content {
   position: relative;
 }
