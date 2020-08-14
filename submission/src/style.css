@@ -106,7 +106,7 @@ table {
   border: 1px solid;
 }
 
-.content{
+.content {
   background-color: navajowhite;
 }
 
@@ -158,56 +158,63 @@ table {
 .detail .hiphop .tution-scheduler.active {
   font-weight: 1000;
   font-size: xx-large;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+    Verdana, sans-serif;
   display: block;
-  
 }
-.detail .hiphop .hiphop-intro.active .hiphopintro{
+.detail .hiphop .hiphop-intro.active .hiphopintro {
   display: flex;
   flex-direction: row;
   width: 200px;
   height: 400px;
   margin-right: 20px;
 }
-.detail .hiphop .hiphop-intro.active .hiphopintro img{
+.detail .hiphop .hiphop-intro.active .hiphopintro img {
   width: 600px;
 }
-.detail .hiphop .popping-intro.active .poppingintro{
+.detail .hiphop .popping-intro.active .poppingintro {
   display: flex;
   flex-direction: row;
   width: 200px;
   height: 400px;
   margin-right: 20px;
 }
-.detail .hiphop .popping-intro.active .poppingintro img{
+.detail .hiphop .popping-intro.active .poppingintro img {
   width: 600px;
 }
-.detail .hiphop .locking-intro.active .lockingintro{
+.detail .hiphop .locking-intro.active .lockingintro {
   display: flex;
   flex-direction: row;
   width: 200px;
   height: 400px;
   margin-right: 20px;
 }
-.detail .hiphop .locking-intro.active .lockingintro img{
+.detail .hiphop .locking-intro.active .lockingintro img {
   width: 600px;
 }
-.detail .hiphop .breaking-intro.active .breakingintro{
+.detail .hiphop .breaking-intro.active .breakingintro {
   display: flex;
   flex-direction: row;
   width: 200px;
   height: 400px;
   margin-right: 20px;
 }
-.detail .hiphop .breaking-intro.active .breakingintro img{
+.detail .hiphop .breaking-intro.active .breakingintro img {
   width: 600px;
 }
-
+.detail .hiphop .tution-scheduler.active .sche {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  height: 400px;
+  vertical-align: middle;
+  margin-right: 100px;
+}
 @media (max-width: 500px) {
   nav {
     height: 200px;
   }
-  
+
   .menu-list {
     display: flex;
     flex-direction: column;
